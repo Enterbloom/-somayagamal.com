@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  height: 400vh;
+  width: 100%;
+}
+
+#navBar {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  opacity: 50%;
+  z-index: 1;
+}
+
+#navBar a {
+  text-decoration: none;
+}
+
+#navBar a:hover {
+  font-size: 20px;
+  color: orange;
+}
+
+#introImage {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#introImage img {
+  width: 100%;
+}
+
+#title {
+  position: absolute;
+  background-color: aqua;
+  width: 200px;
+  height: 50px;
+  bottom: -25px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+#bodyBox {
+  width: 100%;
+  height: 1000px;
+  background-color: brown;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#textBox {
+  width: 80%;
+  height: 100%;
+  background-color: black;
+  margin-top: 100px;
+}
